@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DevDuo – Team Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">DevDuo</a>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navLinks">Menu</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <h1>Welcome to DevDuo</h1>
+        <p>We are a two-person web development team building clean, responsive and user-friendly websites and web applications.</p>
+        <a href="#team" class="btn">Explore the Team</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <h2>About</h2>
+        <p>This portfolio introduces our development team and presents the skills, technologies and tools we work with.</p>
+        <p>It brings together full stack web development and WordPress development, so visitors can quickly see what each of us does and how to get in touch.</p>
+      </div>
+    </section>
+
+    <section id="team">
+      <div class="container">
+        <h2>Our Team</h2>
+        <p class="section-intro">Two developers with complementary skills.</p>
+        <div class="cards">
+
+          <article class="card">
+            <!-- Add your photo as images/ahmad.jpg (initials show until then) -->
+            <div class="avatar">
+              <span>MA</span>
+              <img src="images/ahmad.jpg" alt="Muhammad Ahmad" onerror="this.remove()">
+            </div>
+            <h3>Muhammad Ahmad</h3>
+            <p class="role">Full Stack Developer</p>
+            <p class="intro">Hi, I’m Muhammad Ahmad, a Full Stack Developer interested in building web applications using modern technologies. I work with the MERN stack and also use FastAPI and PostgreSQL for backend development and database management.</p>
+            <h4>Skills</h4>
+            <ul class="tags">
+              <li>MERN Stack</li><li>FastAPI</li><li>PostgreSQL</li>
+              <li>Frontend Development</li><li>Backend Development</li><li>REST API Development</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <!-- Add your photo as images/hussain.jpg (initials show until then) -->
+            <div class="avatar">
+              <span>MH</span>
+              <img src="images/hussain.jpg" alt="Muhammad Hussain" onerror="this.remove()">
+            </div>
+            <h3>Muhammad Hussain</h3>
+            <p class="role">WordPress Developer</p>
+            <p class="intro">Hi, I’m Muhammad Hussain, a WordPress Developer focused on creating and customizing responsive websites using WordPress. I enjoy working on website layouts, themes, and functionality to build simple and user-friendly websites.</p>
+            <h4>Skills</h4>
+            <ul class="tags">
+              <li>WordPress Development</li><li>Website Customization</li><li>Theme &amp; Plugin Management</li>
+              <li>Responsive Design</li><li>GitHub &amp; Version Control</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="tech" id="skills">
+      <div class="container">
+        <h2>Technologies &amp; Tools</h2>
+        <p class="section-intro">The technologies and tools we use in our projects.</p>
+        <div class="tech-groups">
+          <div class="tech-group">
+            <h3>Muhammad Ahmad</h3>
+            <ul class="tags">
+              <li>MongoDB</li><li>Express.js</li><li>React.js</li><li>Node.js</li>
+              <li>FastAPI</li><li>PostgreSQL</li><li>REST APIs</li><li>HTML &amp; CSS</li><li>JavaScript</li>
+            </ul>
+          </div>
+          <div class="tech-group">
+            <h3>Muhammad Hussain</h3>
+            <ul class="tags">
+              <li>WordPress</li><li>Themes</li><li>Plugins</li><li>Responsive Design</li>
+              <li>HTML &amp; CSS</li><li>Git</li><li>GitHub</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="section-intro">Get in touch with either of us.</p>
+        <div class="contact-list">
+          <div class="contact-card">
+            <h3>Muhammad Ahmad</h3>
+            <ul>
+              <li><span class="label">GitHub</span><a data-link="ahmad.github" href="#" target="_blank" rel="noopener"></a></li>
+              <li><span class="label">LinkedIn</span><a data-link="ahmad.linkedin" href="#" target="_blank" rel="noopener"></a></li>
+              <li><span class="label">Email</span><a data-link="ahmad.email" href="#"></a></li>
+            </ul>
+          </div>
+          <div class="contact-card">
+            <h3>Muhammad Hussain</h3>
+            <ul>
+              <li><span class="label">GitHub</span><a data-link="hussain.github" href="#" target="_blank" rel="noopener"></a></li>
+              <li><span class="label">LinkedIn</span><a data-link="hussain.linkedin" href="#" target="_blank" rel="noopener"></a></li>
+              <li><span class="label">Email</span><a data-link="hussain.email" href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">&copy; <span id="year"></span> DevDuo. All rights reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
