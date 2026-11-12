@@ -1,7 +1,7 @@
 // ===== Replace these placeholders with real profile details =====
 var CONTACTS = {
-  ahmad:   { github: "https://github.com/your-username", linkedin: "https://www.linkedin.com/in/your-username", email: "ahmad@example.com" },
-  hussain: { github: "https://github.com/your-username", linkedin: "https://www.linkedin.com/in/your-username", email: "hussain@example.com" }
+  ahmad:   { github: "https://github.com/imahmad0864-dotcom", linkedin: "http://linkedin.com/in/muhammad-ahmad-9b06a2331", email: "imahmad0864@gmail.com" },
+  hussain: { github: "https://github.com/MuhammadHussain25", linkedin: "https://www.linkedin.com/in/muhammad-hussain-khalid-066128430", email: "hussainwork25@gmail.com" }
 };
 // ================================================================
 
